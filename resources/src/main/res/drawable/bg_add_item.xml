@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/addItemBackground" />
+    <stroke
+        android:width="@dimen/sml_ui_double_line_size"
+        android:color="@color/addItemStroke"
+        android:dashGap="@dimen/defaultDashGap"
+        android:dashWidth="@dimen/defaultDashWidth" />
+    <corners android:radius="@dimen/defaultItemRadius" />
+</shape>

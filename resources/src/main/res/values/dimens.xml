@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- =========== standard sizes =========== -->
+    <dimen name="sml_ui_thin_line_size">0.5dp</dimen>
+    <dimen name="sml_ui_line_size">1dp</dimen>
+    <dimen name="sml_ui_double_line_size">2dp</dimen>
+    <dimen name="sml_ui_thick_line_size">4dp</dimen>
+    <dimen name="sml_ui_thin_size">2dp</dimen>
+    <dimen name="sml_ui_small_size">4dp</dimen>
+    <dimen name="sml_ui_normal_size">8dp</dimen>
+    <dimen name="sml_ui_big_size">12dp</dimen>
+    <dimen name="sml_ui_large_size">16dp</dimen>
+    <dimen name="sml_ui_xlarge_size">32dp</dimen>
+    <dimen name="sml_ui_huge_size">24dp</dimen>
+    <dimen name="sml_ui_to_correct_font_large">-5dp</dimen>
+    <dimen name="sml_ui_to_correct_font_small">-2dp</dimen>
+
+    <dimen name="md_button_inset_horizontal">4dp</dimen>
+    <dimen name="md_button_inset_vertical">4dp</dimen>
+    <dimen name="md_button_padding_horizontal">4dp</dimen>
+    <dimen name="md_button_padding_vertical">4dp</dimen>
+    <dimen name="md_action_corner_radius">4dp</dimen>
+
+    <!-- =========== standard text sizes =========== -->
+    <dimen name="sml_ui_text_nano">10sp</dimen>
+    <dimen name="sml_ui_text_micro">12sp</dimen>
+    <dimen name="sml_ui_text_small">14dp</dimen>
+    <dimen name="sml_ui_text_normal">16sp</dimen>
+    <dimen name="sml_ui_text_medium">18sp</dimen>
+    <dimen name="sml_ui_text_large">22sp</dimen>
+    <dimen name="sml_ui_text_huge">32sp</dimen>
+
+    <!--image sizes-->
+    <dimen name="thinImageSize">10dp</dimen>
+    <dimen name="smallImageSize">20dp</dimen>
+    <dimen name="standardImageSize">30dp</dimen>
+    <dimen name="normalImageSize">40dp</dimen>
+    <dimen name="mediumImageSize">50dp</dimen>
+    <dimen name="largeImageSize">60dp</dimen>
+    <dimen name="xLargeImageSize">70dp</dimen>
+    <dimen name="xxLargeImageSize">80dp</dimen>
+    <dimen name="hugeImageSize">100dp</dimen>
+
+    <!--image sizes-->
+    <dimen name="sml_ui_item_small">40dp</dimen>
+    <dimen name="sml_ui_item_normal">55dp</dimen>
+
+    <!-- others -->
+    <dimen name="defaultElevation">1dp</dimen>
+    <dimen name="progressbarSize">35dp</dimen>
+    <dimen name="defaultDashWidth">6dp</dimen>
+    <dimen name="defaultDashGap">3dp</dimen>
+    <dimen name="defaultItemRadius">6dp</dimen>
+    <dimen name="defaultCardRadius">2dp</dimen>
+    <dimen name="servicesIconSize">50dp</dimen>
+    <dimen name="contactAvatarSize">50dp</dimen>
+    <dimen name="menuIconSize">35dp</dimen>
+    <dimen name="contactAvatarSmallSize">40dp</dimen>
+    <dimen name="profileItemIconSize">35dp</dimen>
+    <dimen name="profileAvatarSize">100dp</dimen>
+    <dimen name="roundedButtonRadius">40dp</dimen>
+    <dimen name="edittextRadius">10dp</dimen>
+    <dimen name="bottomBarIcons">20dp</dimen>
+    <dimen name="listIconSize">35dp</dimen>
+    <dimen name="drawerItemHeight">48sp</dimen>
+    <dimen name="bottomMenuMainButtonSize">56dp</dimen>
+    <dimen name="bottomMenuMainButtonIconSize">35dp</dimen>
+    <dimen name="bottomMenuAreaSize">72dp</dimen>
+    <dimen name="bottomMenuSize">56dp</dimen>
+    <dimen name="shortcutsIconSize">20dp</dimen>
+    <dimen name="accountHeaderHeight">250dp</dimen>
+    <dimen name="accountBalanceTopMargin">85dp</dimen>
+    <dimen name="accountWalletIconTopMargin">20dp</dimen>
+    <dimen name="itemCardRadius">10dp</dimen>
+    <dimen name="itemCardRadiusNormal">3dp</dimen>
+    <dimen name="walletFunctionIconSize">30dp</dimen>
+    <dimen name="walletPagerHeight">190dp</dimen>
+    <dimen name="tabHeight">48dp</dimen>
+    <dimen name="tabItemWidth">100dp</dimen>
+    <dimen name="drawer_item_height">48dp</dimen>
+    <dimen name="normalListThumbSize">60dp</dimen>
+    <dimen name="mobileChargePacketWidth">80dp</dimen>
+    <dimen name="accountActionBarHeight">60dp</dimen>
+    <dimen name="authenticationEdittextWidth">270dp</dimen>
+    <dimen name="maxWidthOfForms">400dp</dimen>
+    <dimen name="defaultButtonHeight">50dp</dimen>
+    <dimen name="defaultHeaderPageSize">50dp</dimen>
+    <dimen name="settingItemHeight">80dp</dimen>
+    <dimen name="dashboardNewsTitleHeight">70dp</dimen>
+    <dimen name="walletOptionItemSize">90dp</dimen>
+    <dimen name="inputIconSize">24dp</dimen>
+
+    <dimen name="shortcutsSize">50dp</dimen>
+    <dimen name="mainHeaderShortcutMargin">32dp</dimen>
+    <dimen name="mainHeaderShortcutText">@dimen/sml_ui_text_small</dimen>
+    <dimen name="mainBannerSize">100dp</dimen>
+
+
+    <!--new theme-->
+    <dimen name="elevation">3dp</dimen>
+    <dimen name="margin_top">8dp</dimen>
+    <dimen name="margin_top_double">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="default_box_height">55dp</dimen>
+    <dimen name="default_radius">4dp</dimen>
+    <dimen name="drawer_divider_height">4dp</dimen>
+
+    <dimen name="main_dash_other_services_icon_size">24dp</dimen>
+    <dimen name="main_dash_other_services_tile_title_size">14sp</dimen>
+    <dimen name="main_dash_icon_size">32dp</dimen>
+
+    <!--card to card dimens-->
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="card_to_card_corner_radius">10dp</dimen>
+    <dimen name="card_slider_selected_width">3dp</dimen>
+
+    <dimen name="bubbleHeadAppAlpha" format="float">0.4</dimen>
+    <dimen name="bubbleHeadAppSelectedElevation">6dp</dimen>
+
+</resources>

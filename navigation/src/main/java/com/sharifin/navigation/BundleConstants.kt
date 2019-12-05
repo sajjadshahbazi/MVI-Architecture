@@ -1,0 +1,71 @@
+package com.sharifin.navigation
+
+object BundleConstants {
+    const val EXTRA_MAIN_SCREEN = "extras_main"
+    const val EXTRA_PUSH = "extras_push"
+    const val EXTRA_LOGIN_SCREEN = "extras_login"
+    const val EXTRA_OTP_SCREEN = "extras_otp"
+    const val EXTRA_CARD_INFORMATION_SCREEN = "extras_card_information"
+    const val EXTRA_CARD_LIST_SCREEN = "extras_card_list"
+    const val EXTRA_WALLET_TRANSFER = "extras_wallet_transfer"
+    const val EXTRA_INVOICE_MODEL = "invoice_model"
+    const val EXTRA_WALLET_MODEL = "extra_wallet_model"
+    const val EXTRA_ACTIVITY_HISTORY_MODEL = "extra_activity_history_model"
+    const val EXTRA_WALLET_DETAIL_MODEL = "WalletDetail"
+    const val EXTRA_Wallet_REPORT_MODEL = "WalletReport"
+    const val REQUEST_CODE_CHOOSE_CONTACT = 1111
+    const val PHONENUMBER = "phone"
+    const val EXTRA_WALLET = "extra_wallet"
+    const val EXTRA_NOTIFICATION = "notifications_model"
+    const val CONTACT_LIST = "CONTACT_LIST"
+
+}
+
+object NavigationActionConstants {
+    const val INTENT_ACTION_MAIN = "com.sharifin.mbank.main"
+    const val INTENT_ACTION_FILTERED_ACTIVITY_HISTORY= "com.sharifin.mbank.ActivityFilteredHistoryActivity"
+    const val INTENT_ACTION_LOGIN = "com.sharifin.mbank.login"
+    const val INTENT_ACTION_REGISTER = "com.sharifin.mbank.register"
+    const val INTENT_ACTION_OTP = "com.sharifin.mbank.otp"
+    const val INTENT_ACTION_DEPOSIT = "com.sharifin.mbank.deposit"
+    const val INTENT_ACTION_CARD_TO_CARD = "com.sharifin.mbank.cardtocard"
+    const val INTENT_ACTION_CARD_LIST = "com.sharifin.mbank.cardlist"
+    const val INTENT_ACTION_CARD_INFORMATION = "com.sharifin.mbank.cardinformation"
+    const val INTENT_ACTION_INQUIRY_PENALTY_BILL = "com.sharifin.mbank.inquirybillpelanty"
+    const val INTENT_ACTION_BILLS = "com.sharifin.bills.view.BillsActivity"
+    const val INTENT_ACTION_CHARGE_PACKAGE = "com.sharifin.mbank.ChargePackage"
+    const val INTENT_ACTION_INTERNET_PACKAGE = "com.sharifin.mbank.InternetPackage"
+    const val INTENT_ACTION_CONTACT_LIST_ACTIVITY = "com.sharifin.getcontacts.view.ContactActivity"
+    const val INTENT_ACTION_CONTACT_US_ACTIVITY = "com.sharifin.mbank.ContactUs"
+    const val INTENT_ACTION_WALLET_TO_WALLET = "com.sharifin.mbank.WalletToWallet"
+    const val INTENT_ACTION_INVOICE_PAYMENT = "com.sharifin.mbank.InvoicePayment"
+    const val INTENT_ACTION_WALLET_PAYMENT = "com.sharifin.mbank.WalletPayment"
+    const val INTENT_ACTION_PHONE_BILL = "com.sharifin.mbank.PhoneBill"
+    const val INTENT_ACTION_QR_PAYMENT = "com.sharifin.mbank.QRPayment"
+    const val INTENT_ACTION_CHANGE_PASS = "com.sharifin.mbank.ChangePass"
+    const val INTENT_ACTION_SETTING = "com.sharifin.mbank.Setting"
+    const val INTENT_ACTION_FINGERPRINT = "com.sharifin.mbank.FingerPrint"
+    const val INTENT_ACTION_ChANGE_PROFILE_SETTING = "com.sharifin.mbank.ChangeProfileSetting"
+    const val INTENT_ACTION_WALLET_DETAIL = "com.sharifin.mbank.WalletDetail"
+    const val INTENT_ACTION_WALLET_REPORT = "com.sharifin.mbank.WalletReport"
+    const val INTENT_ACTION_WALLET_TRANSFER = "com.sharifin.mbank.WalletTransfer"
+    const val INTENT_ACTION_WALLET_WITH_DRAW = "com.sharifin.mbank.WalletWithDraw"
+    const val INTENT_ACTION_REQUEST_MONEY = "com.sharifin.requestmoney.view.RequestMoneyActivity"
+    const val INTENT_ACTION_NOTIFICATION = "com.sharifin.notifications.view.NotificationActivity"
+    const val INTENT_ACTION_INVEST_MAIN = "com.sharifin.invest.main"
+    const val INTENT_ACTION_PUSH_ACTION_HANDLER = "com.sharifin.mbank.pushNotification.PushActionHandlerActivity"
+    const val INTENT_ACTION_ABOUT = "com.sharifin.mbank.AboutActivity"
+    const val INTENT_ACTION_MY_QR = "com.sharifin.mbank.MyQr"
+    const val INTENT_ACTION_WEB = "com.sharifin.mbank.WebViewActivity"
+    const val INTENT_NEW_WALLET = "com.sharifin.mbank.NewWallet"
+    const val INTENT_ACTION_INVESTMENT = "com.sharifin.investment.autologin.AutoLoginActivity"
+    const val INTENT_ACTION_TOURISM = "com.sharifin.tourism.ui.main.TourismMainActivity"
+    const val SELECTED_WALLET = "selected_wallet"
+    const val EXTRA_WALLET = "extra_wallet"
+
+}
+
+object PackageName {
+    const val PACKAGE_NAME = "com.sharifin.mbank"
+    const val DEFAULT_CATEGORY = "com.sharifin.mbank.default_category"
+}

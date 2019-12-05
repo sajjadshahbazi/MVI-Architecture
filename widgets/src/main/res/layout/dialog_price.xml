@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vGuidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="28dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vGuidelineRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="28dp" />
+
+
+    <View
+        android:id="@+id/mainBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_white_4radius"
+        app:layout_constraintBottom_toBottomOf="@+id/main_space"
+        app:layout_constraintLeft_toLeftOf="@+id/vGuidelineLeft"
+        app:layout_constraintRight_toRightOf="@+id/vGuidelineRight"
+        app:layout_constraintTop_toTopOf="@id/space_start" />
+
+
+    <Button
+        android:id="@+id/btnRight"
+        style="@style/button"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="@dimen/margin_top_double"
+        android:minWidth="0dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="تایید"
+        app:layout_constraintBottom_toTopOf="@+id/main_space"
+        app:layout_constraintRight_toRightOf="@+id/tvHeader"
+        app:layout_constraintTop_toBottomOf="@+id/tvPrice" />
+
+
+    <Space
+        android:id="@+id/space_start"
+        android:layout_width="0dp"
+        android:layout_height="16dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/tvHeader"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/tvHeader"
+        style="@style/mainText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_double"
+        android:layout_marginRight="@dimen/margin_top_double"
+        android:elevation="@dimen/elevation"
+        android:gravity="center"
+        android:text="تایتل"
+        android:textColor="@color/teal_d1"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvPrice"
+        app:layout_constraintRight_toRightOf="@+id/vGuidelineRight"
+        app:layout_constraintTop_toBottomOf="@id/space_start" />
+
+    <EditText
+        android:id="@+id/tvPrice"
+        style="@style/mainText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_top_double"
+        android:layout_marginTop="@dimen/margin_top_double"
+        android:layout_marginRight="@dimen/margin_top_double"
+        android:layout_marginBottom="16dp"
+        android:background="#f5f5f5"
+        android:digits="1234567890"
+        android:elevation="@dimen/elevation"
+        android:gravity="right"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="12dp"
+        android:hint="مبلغ"
+        android:textColor="@color/black_l1"
+        app:layout_constraintBottom_toTopOf="@+id/btnRight"
+        app:layout_constraintLeft_toLeftOf="@+id/vGuidelineLeft"
+        app:layout_constraintRight_toRightOf="@+id/vGuidelineRight"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeader" />
+
+
+    <Space
+        android:id="@+id/main_space"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRight" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners
+        android:bottomLeftRadius="@dimen/sml_ui_xlarge_size"
+        android:bottomRightRadius="@dimen/sml_ui_xlarge_size"
+        android:topLeftRadius="@dimen/sml_ui_xlarge_size"
+        android:topRightRadius="@dimen/sml_ui_xlarge_size" />
+    <solid android:color="@color/medGrayIcon" />
+</shape>

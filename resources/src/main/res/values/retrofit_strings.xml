@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_wrong_passed_data">passed data is wrong</string>
+    <string name="error_internal">اطلاعات ارسالی اشتباه است</string>
+    <string name="error_not_found">یافت نشد</string>
+    <string name="error_wrong_received_params">Error in receiving Parameters</string>
+    <string name="error_time_out">خطای زمان سرور</string>
+    <string name="error_connection_failure">ارتباط با مشکل مواجه شد</string>
+    <string name="error_illegal_argument">پارامتر اشتباه</string>
+    <string name="error_unknown_host">ارتباط با سرور امکان پذیر نمی باشد. لطفا تنظیمات اینترنت خود را بررسی نمایید.</string>
+    <string name="error_data_receive">خطا در اطلاعات دریافتی</string>
+    <string name="error_element_not_found">موردی یافت نشد</string>
+    <string name="error_server_failure">خطا سرور</string>
+    <string name="error_no_item_received">اطلاعاتی دریافت نشد</string>
+    <string name="error_server">Server Error</string>
+    <string name="error_unknown">خطا نامشخص</string>
+    <string name="error_unAuthorized">UnAuthorized</string>
+    <string name="error_permission_denied">Overlay Permission Denied</string>
+    <string name="error_user_unauthorized">Your Session has been expired, please login again</string>
+    <string name="error_submit_error">Submit failed</string>
+    <string name="error_loading_data">دریافت اطلاعات با مشکل مواجه شد</string>
+    <string name="error_invalid_price">مبلغ وارد شده اشتباه است</string>
+    <string name="error_no_price">لطفا مبلغ را وارد کنید</string>
+    <string name="error_invalid_destination_card_number">شماره کارت مقصد وارد شده اشتباه است</string>
+    <string name="error_invalid_source_card_number">شماره کارت مبدا وارد شده اشتباه است</string>
+    <string name="error_invalid_source_wallet_number">لطفا کیف پول مبدا را انتخاب کنید</string>
+    <string name="error_invalid_destination_wallet_number">لطفا مخاطب مقصد را انتخاب کنید</string>
+    <string name="error_invalid_request_source_contact">لطفا مخاطب را انتخاب کنید</string>
+    <string name="error_invalid_request_destination_wallet">لطفا کیف پول مقصد را انتخاب کنید</string>
+    <string name="error_unauthorized">دسترسی غیر مجاز</string>
+    <string name="error_invalid_wallet_name">لطفا نام کیف پول را وارد کنید</string>
+    <string name="error_invalid_wallet_type">لطفا نوع کیف پول را تعیین کنید</string>
+    <string name="errorNoWallet">کیف پولی انتخاب نشده است</string>
+    <string name="error_no_mobile">لطفا شماره تلفن خود را وارد کنید</string>
+    <string name="error_mobile_not_valid">شماره تلفن وارد شده صحیح نیست</string>
+    <string name="error_no_password">لطفا رمز عبور خود را وارد کنید</string>
+    <string name="error_password_less_than_8">رمز عبور باید حداقل ۸ کارکتر باشد</string>
+    <string name="error_no_email">لطفا ایمیل خود را وارد کنید</string>
+    <string name="error_wrong_email">ایمیل وارد شده صحیح نیست</string>
+    <string name="error_no_first_name">لطفا نام خود را وارد کنید</string>
+    <string name="error_no_last_name">لطفا نام خانوادگی خود را وارد کنید</string>
+    <string name="error_no_otp_code">لطفا کد تایید ارسال شده را وارد کنید</string>
+    <string name="error_otp_code_not_valid">کد تایید باید ۶ کارکتر باشد</string>
+    <string name="error_transmission">خطا در آماده سازی اطلاعات</string>
+
+</resources>

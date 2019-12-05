@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1ebbae</color>
+    <color name="colorPrimaryDark">#1c9389</color>
+    <color name="colorAccent">#008ebc</color>
+    <color name="colorAccentDark">#04779c</color>
+
+    <color name="primaryLight">#4DB6AC</color>
+    <color name="primaryMed">#009688</color>
+    <color name="primaryDark">#00796B</color>
+    <color name="primaryTransparent">#334DB6AC</color>
+
+    <color name="secondaryLight">#FFB74D</color>
+    <color name="secondaryMed">#FF9800</color>
+    <color name="secondaryDark">#F57C00</color>
+    <color name="secondaryTransparent">#33FFB74D</color>
+
+    <!-- main colors -->
+    <color name="defaultBackground">#f5f5f5</color>
+    <color name="medDarkBackground">#efeff7</color>
+    <color name="darkBackground">#dae1e6</color>
+    <color name="bottomBarBackground">#FFFFFF</color>
+    <color name="bottomBarIconSelected">@color/colorPrimary</color>
+    <color name="bottomBarIconUnselected">#617286</color>
+    <color name="toolbarBackground">@color/colorPrimary</color>
+    <color name="toolbarDarkIcons">#9c9c9c</color>
+    <color name="addItemBackground">#fbfbfb</color>
+    <color name="addItemStroke">#e5ebee</color>
+    <color name="darkGrayText">#54616e</color>
+    <color name="medGrayText">#939eab</color>
+    <color name="lightGrayText">#b9c2cc</color>
+    <color name="lightGrayIcon">#b9c2cc</color>
+    <color name="medGrayIcon">#939eab</color>
+    <color name="darkGrayIcon">#54616e</color>
+    <color name="grayHighlight">#19000000</color>
+    <color name="listDivider">#b9c2cc</color>
+    <color name="lightListDivider">#f3f3f3</color>
+    <color name="defaultDivider">#e6e6e6</color>
+    <color name="footerBackground">#e6ebf1</color>
+    <color name="highlightText">@color/colorAccent</color>
+    <color name="highlightBackground">#f9f9f9</color>
+    <color name="medHighlightBackground">#f4f5f6</color>
+    <color name="defaultIconTint">#617286</color>
+    <color name="requestMoneyBackground">#48de89</color>
+    <color name="sendMoneyBackground">#2AAAEB</color>
+    <color name="lightGrayLine">#e2e7ed</color>
+    <color name="lightShadow">#d8deec</color>
+    <color name="validDataCards">#4286f5</color>
+    <color name="invalidDataCard">#e6d174</color>
+    <color name="activeConfirmButton">#34aa54</color>
+    <color name="activeConfirmButtonDark">#2e9e4d</color>
+    <color name="deactivateConfirmButton">#939eab</color>
+    <color name="disableItemBackground">#e7ecf0</color>
+    <color name="disableIcon">#c4ced6</color>
+    <color name="mciColor">#54c5d0</color>
+    <color name="irancellColor">#ffbe00</color>
+    <color name="rightelColor">#992B6A</color>
+    <color name="serviceCat1">#98ccfd</color>
+    <color name="serviceCat1Dark">#4788c7</color>
+    <color name="serviceCategoryColor2">#fb8b03</color>
+    <color name="serviceCategoryColor3">#d81a60</color>
+    <color name="serviceCategoryColor4">#5b9048</color>
+    <color name="passwordIsWeak">#892b2b</color>
+    <color name="passwordIsMedium">#d9a305</color>
+    <color name="passwordIsStrong">#3c842c</color>
+    <color name="alterButtonPressed">#ededed</color>
+    <color name="inputBackgroundNormal">#edf2f8</color>
+    <color name="darkTransparent">#22000000</color>
+
+    <!-- chart -->
+    <color name="chartAxis">#30547d99</color>
+
+    <!-- dialogs -->
+    <color name="themedDialogBackground">#ff37474f</color>
+
+    <!-- color sets -->
+    <color name="blue">#008ebc</color>
+    <color name="blueDark">#04779c</color>
+    <color name="lightGreen">#41a15b</color>
+    <color name="green">#3c842c</color>
+    <color name="greenDark">#316825</color>
+    <color name="red">#b33131</color>
+    <color name="redDark">#892b2b</color>
+    <color name="yellow">#FFBE00</color>
+    <color name="yellowDark">#d9a305</color>
+    <color name="cyan">#2dbcdf</color>
+    <color name="cyanDark">#27b1d3</color>
+    <color name="orange">#f26d40</color>
+    <color name="orangeDark">#e7673c</color>
+    <color name="violet">#df70b8</color>
+    <color name="violetDark">#c95da3</color>
+
+    <color name="tourism_colorAccent">#7d5fc1</color>
+
+    <!-- Activities Type Color -->
+    <color name="typeCharge">#f6ca45</color>
+    <color name="typeCardToCard">#008ebc</color>
+    <color name="typeBuy">#efa25a</color>
+    <color name="typeMoneyRequest">#6DC196</color>
+    <color name="typeWalletToWallet">#008ebc</color>
+    <color name="typeRollbacked">#6DC196</color>
+
+    <!-- Account Types -->
+    <color name="typeWallet">#74B6EA</color>
+    <color name="typeFund">#6DC196</color>
+    <color name="typeSarshaar">#f4c352</color>
+
+    <!-- Login Gradients -->
+    <color name="gradient_color_1">#00b5a8</color>
+    <color name="gradient_color_2">#77c88c</color>
+    <color name="gradient_color_3">#447ee4</color>
+    <color name="gradient_color_4">#32c6a6</color>
+    <color name="gradient_color_5">#9b79e6</color>
+    <color name="gradient_color_6">#4bbaed</color>
+
+    <!-- investment -->
+    <color name="highPriceBg">#e4f6ef</color>
+    <color name="lowPriceBg">#fae0e0</color>
+
+    <!-- alerts -->
+    <color name="alert_default">#ecc35d</color>
+    <color name="alert_warning">#e98437</color>
+    <color name="alert_info">#3ba0c7</color>
+    <color name="alert_message">#918e87</color>
+    <color name="alert_success">#4fa751</color>
+    <color name="alert_error">#c73134</color>
+
+    <!-- icon set colors -->
+    <!-- default set -->
+    <color name="icon_set_1_c1">#c73134</color>
+    <color name="icon_set_1_c2">#c73134</color>
+    <color name="icon_set_1_c3">#c73134</color>
+    <color name="icon_set_1_c4">#c73134</color>
+    <color name="icon_set_1_c5">#c73134</color>
+
+    <!-- New Theme Colors-->
+    <color name="orange_l1">#ffb74d</color>
+    <color name="orange_l1_transparent">#6fffb74d</color>
+    <color name="orange_l2_transparent">#2fffb74d</color>
+    <color name="orange_0">#ff9800</color>
+    <color name="orange_d1">#f57c00</color>
+
+    <color name="teal_l1">#4db6ac</color>
+    <color name="teal_0">#009688</color>
+    <color name="teal_d1">#00796b</color>
+    <color name="teal_d0_op10">#1A00796b</color>
+    <color name="teal_d0_op20">#3300796b</color>
+    <color name="teal_d0_op30">#244db6ac</color>
+
+    <color name="black_l1">#616161</color>
+    <color name="black_0">#101010</color>
+    <color name="black_l2">#9e9e9e</color>
+    <color name="black_l3">#e0e0e0</color>
+    <color name="black_l4">#f5f5f5</color>
+    <color name="black_o2">#33000000</color>
+
+
+    <color name="black_transparent">#afffffff</color>
+    <color name="black_transparent_bubble">#af000000</color>
+
+    <!--core colors-->
+    <color name="orange13Tranc">#21F57C00</color>
+
+    <!--bill payment module colors-->
+    <color name="lightGray">#b9c2cc</color>
+    <color name="textTitle">#616161</color>
+
+</resources>

@@ -1,0 +1,259 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/iransansmobile</item>
+        <item name="android:editTextStyle">@style/mainText</item>
+        <item name="android:textViewStyle">@style/mainText</item>
+        <item name="android:textSize" tools:ignore="SpUsage">14dp</item>
+
+        <!--<item name="drawerArrowStyle">@style/darkDrawerArrowToggle</item>-->
+    </style>
+
+    <style name="FingerprintTheme" parent="AppTheme">
+        <item name="colorAccent">@color/teal_0</item>
+    </style>
+
+    <style name="LoadingTheme" parent="android:Theme.Dialog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@color/black_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowEnterAnimation">@null</item>
+
+        <item name="android:windowExitAnimation">@null</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="FullScreenDialog" parent="AlertDialog.AppCompat.Light">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@color/black_transparent_bubble</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:windowEnterAnimation">@null</item>
+
+        <item name="android:windowExitAnimation">@null</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="darkDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/toolbarDarkIcons</item>
+    </style>
+
+    <style name="dialog" parent="Theme.AppCompat.Light.Dialog.MinWidth">
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="subText" parent="AppTheme">
+        <item name="android:textColor">@color/black_l1</item>
+        <item name="android:textSize" tools:ignore="SpUsage">12dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="largeText" parent="AppTheme">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize" tools:ignore="SpUsage">16dp</item>
+        <item name="android:textColorHint">@color/black_l2</item>
+
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="mainText" parent="AppTheme">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize" tools:ignore="SpUsage">14dp</item>
+        <item name="android:textColorHint">@color/black_l2</item>
+
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="englishText" parent="AppTheme">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize" tools:ignore="SpUsage">14dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColorHint">@color/black_l2</item>
+
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="button" parent="AppTheme">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize" tools:ignore="SpUsage">16dp</item>
+        <item name="android:background">@drawable/bg_orange_4_radius</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_height">55dp</item>
+
+    </style>
+
+    <style name="strokeButton" parent="AppTheme">
+        <item name="android:textColor">@color/orange_l1</item>
+        <item name="android:textSize" tools:ignore="SpUsage">14dp</item>
+        <item name="android:background">@drawable/bg_orange_stroke_4_radius</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="ButtonTeal" parent="button">
+        <item name="android:background">@drawable/bg_teal_4_radius</item>
+    </style>
+
+    <style name="AppTheme.DefaultRipple">
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+    <style name="roundedButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="roundedWhiteButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/medGrayText</item>
+        <item name="android:padding">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginRight">@dimen/sml_ui_small_size</item>
+        <item name="android:layout_marginLeft">@dimen/sml_ui_small_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="roundedWhiteSpinner" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/medGrayText</item>
+        <item name="android:layout_marginRight">@dimen/sml_ui_small_size</item>
+        <item name="android:layout_marginLeft">@dimen/sml_ui_small_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:background">@drawable/background_spinner</item>
+    </style>
+
+
+    <style name="roundedHighlightButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:height">40dp</item>
+    </style>
+
+    <style name="roundedLineButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:padding">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:paddingLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:paddingRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="roundedWhiteLineButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:paddingLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:paddingRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="roundedRedLineButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:padding">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:paddingLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:paddingRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="roundedCornerLineButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:padding">@dimen/sml_ui_normal_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="normalButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="normalLargeButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingRight">@dimen/sml_ui_large_size</item>
+        <item name="android:paddingLeft">@dimen/sml_ui_large_size</item>
+        <item name="android:paddingBottom">@dimen/sml_ui_normal_size</item>
+        <item name="android:paddingTop">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="defaultEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/darkGrayText</item>
+        <item name="android:textColorHint">@color/lightGrayText</item>
+        <item name="android:textSize">@dimen/sml_ui_text_small</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:paddingRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:paddingLeft">@dimen/sml_ui_normal_size</item>
+    </style>
+
+    <style name="roundedLineEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/darkGrayText</item>
+        <item name="android:padding">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:paddingLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:paddingRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+
+    <style name="roundedEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/darkGrayText</item>
+        <item name="android:padding">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/sml_ui_small_size</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">45dp</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+    <style name="highlightButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginRight">@dimen/sml_ui_normal_size</item>
+        <item name="android:layout_marginLeft">@dimen/sml_ui_normal_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="BlueColorSwitchStyle">
+        <item name="colorControlActivated">@color/teal_0</item>
+        <item name="android:textColorSecondary">@color/black_l1</item>
+    </style>
+
+
+    <style name="transparentActivity" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+
+</resources>

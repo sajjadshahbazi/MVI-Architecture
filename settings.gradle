@@ -1,0 +1,16 @@
+rootProject.name='SignUpUser'
+
+include(":app",
+        ":core",
+        ":retrofit",
+        ":base",
+        ":repository",
+        ":widgets",
+        ":servermodel",
+        ":repositories",
+        ":calendar",
+        ":resources",
+        ":navigation",
+        ":testhelper"
+)
+

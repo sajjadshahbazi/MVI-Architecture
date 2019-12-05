@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BubbleHeadDialog" parent="AlertDialog.AppCompat.Light">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <!-- No backgrounds, titles or window float -->
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+    <style name="DialogAnimation">
+
+
+        <item name="android:windowEnterAnimation">@anim/dialog_scale_up</item>
+        <item name="android:windowExitAnimation">@anim/dialog_scale_down</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,129 @@
+ext {
+    kotlin_version = "1.3.21"
+
+    prjCompileSdkVersion = 28
+    prjBuildToolsVersion = "28.0.3"
+    prjTargetSdkVersion = 28
+    prjMinSdkVersion = 18
+
+    supportTestVersion = "1.1.0"
+    espressoVersion = "3.1.0-alpha3"
+    jUnitVersion = "4.12"
+
+    androidxCompatVersion = "1.0.0"
+    supportLibraryVersion = "1.0.0"
+    googleMaterialVersion = "1.0.0-rc01"
+    multidexVersion = "2.0.0"
+    archComponent = "2.0.0-rc01"
+    kotlinVersion = '1.3.11'
+    firebaseMessagingVersion = '17.3.4'
+    firebaseCrashVersion = '16.2.1'
+    firebaseCoreVersion = '16.0.4'
+    crashlyticsVersion = '2.9.5'
+    pagingComponent = "1.0.0-alpha6"
+    dagger = "2.18"
+    calligraphyVersion = '2.2.0'
+    rxJava = "2.1.6"
+    rxKotlin = "2.3.0"
+    rxBinding = "2.0.0"
+    rxAndroid = "2.0.1"
+    rxBroadCast = "2.0.0"
+    timber = "4.6.0"
+    constraint = "1.0.2"
+    retrofit = "2.3.0"
+    moshi = "1.6.0"
+    koshiVersion = '1.0.5'
+    okHttp = "3.9.1"
+    leakCanary = "1.6.3"
+    btmNav = "2.1.0"
+    objectboxVersion = "2.3.1"
+    progress = "2.1.3"
+    glideVersion = "4.8.0"
+    moBankAuthVersion = "1.0.4"
+    materialDialogsVersion = "0.9.6.0"
+    constraintLayoutVersion = "1.1.2"
+    lottie_version = "2.7.0"
+    javaxVersion = "1.0"
+    jetbrainsAnnotationVersion = "15.0"
+}
+
+
+ext {
+    junit = "junit:junit:$jUnitVersion"
+    kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    supportTestRunner = "androidx.test:runner:$supportTestVersion"
+    espressoCore = "androidx.test.espresso:espresso-core:$espressoVersion"
+
+    supportCompatV7 = "androidx.appcompat:appcompat:$supportLibraryVersion"
+    transition = "androidx.transition:transition:$supportLibraryVersion"
+    supportDesign = "com.google.android.material:material:$googleMaterialVersion"
+    supportCardView = "androidx.cardview:cardview:$supportLibraryVersion"
+    supportV4 = "androidx.legacy:legacy-support-v4:$supportLibraryVersion"
+    supportAnnotation = "androidx.annotation:annotation:$supportLibraryVersion"
+    supportVectorDrawable = "androidx.vectordrawable:vectordrawable:$supportLibraryVersion"
+    supportRecyclerView = "androidx.recyclerview:recyclerview:$supportLibraryVersion"
+    supportMultiDex = "androidx.multidex:multidex:$multidexVersion"
+    constraintLayout = "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+
+    lifecycleRuntime = "androidx.lifecycle:lifecycle-runtime:$archComponent"
+    lifecycleExtension = "androidx.lifecycle:lifecycle-extensions:$archComponent"
+    lifecycleJava8 = "androidx.lifecycle:lifecycle-common-java8:$archComponent"
+    lifecycleCoreTesting = "androidx.arch.core:core-testing:$archComponent"
+
+    retrofitLib = "com.squareup.retrofit2:retrofit:$retrofit"
+    okHttpLib = "com.squareup.okhttp3:okhttp:$okHttp"
+    okHttpLogging = "com.squareup.okhttp3:logging-interceptor:$okHttp"
+
+    rxJavaLib = "io.reactivex.rxjava2:rxjava:$rxJava"
+    rxKotlinLib = "io.reactivex.rxjava2:rxkotlin:$rxKotlin"
+    rxAndroidLib = "io.reactivex.rxjava2:rxandroid:$rxAndroid"
+    rxPreferences = "com.f2prateek.rx.preferences2:rx-preferences:2.0.0"
+    rxJavaRetrofit = "com.squareup.retrofit2:adapter-rxjava2:$retrofit"
+    rxBindingLib = "com.jakewharton.rxbinding2:rxbinding:$rxBinding"
+    rxBindingKotlinLib = "com.jakewharton.rxbinding2:rxbinding-kotlin:$rxBinding"
+    rxBindingCompatLib = "com.jakewharton.rxbinding2:rxbinding-appcompat-v7:$rxBinding"
+    rxBindingCompatKotlinLib = "com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:$rxBinding"
+
+    moshiLib = "com.squareup.moshi:moshi:$moshi"
+    moshiKotlinLib = "com.squareup.moshi:moshi-kotlin:$moshi"
+    moshiRetrofit = "com.squareup.retrofit2:converter-moshi:$retrofit"
+    kotshi = "se.ansman.kotshi:api:$koshiVersion"
+    kotshiCompiler = "se.ansman.kotshi:compiler:$koshiVersion"
+
+    timberLib = "com.jakewharton.timber:timber:$timber"
+
+    glide = "com.github.bumptech.glide:glide:$glideVersion"
+
+    curve25519 = "org.whispersystems:curve25519-android:0.2.5"
+
+    daggerLib = "com.google.dagger:dagger:$dagger"
+    daggerCompiler = "com.google.dagger:dagger-compiler:$dagger"
+
+    daggerAndroid = "com.google.dagger:dagger-android-support:$dagger"
+    daggerAndroidCompiler = "com.google.dagger:dagger-android-processor:$dagger"
+
+    javaxAnnotation = "javax.annotation:jsr250-api:$javaxVersion"
+    jetbrainsAnnotation = "org.jetbrains:annotations-java5:$jetbrainsAnnotationVersion"
+    injectAnnotation = "javax.inject:javax.inject:1"
+
+    roundCardView = "com.github.captain-miao:optroundcardview:1.0.0"
+    roundImageVIew = "com.makeramen:roundedimageview:2.3.0"
+
+
+    objectBoxJava = "io.objectbox:objectbox-java-api:$objectboxVersion"
+    objectBoxKotlin = "io.objectbox:objectbox-kotlin:$objectboxVersion"
+    objectBoxBrowser = "io.objectbox:objectbox-android-objectbrowser:$objectboxVersion"
+    objectBoxAndroid = "io.objectbox:objectbox-android:$objectboxVersion"
+
+}
+
+ext{
+    isReleaseDebuggable = false
+    isDebugDebuggable = true
+    isDebugMinify = false
+    isReleaseMinify = true
+    isReleaseMultiDex = true
+    isDebugMultiDex = true
+    proguardFileAddress = "${rootProject.rootDir.absolutePath}\\proguard-rules.pro"
+}

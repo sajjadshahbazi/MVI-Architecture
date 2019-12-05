@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transferMenuText">
+        <!--<item>به کارت</item>-->
+        <item>به کیف پول</item>
+        <item>به شخص</item>
+    </string-array>
+
+    <integer-array name="transferMenuIcon">
+    </integer-array>
+
+    <string-array name="notificationOptions">
+        <item>پیوستن مخاطب جدید</item>
+        <item>واریز وجه</item>
+        <item>درخواست وجه از من</item>
+        <item>رد درخواست وجه من</item>
+        <item>اخبار</item>
+    </string-array>
+
+    <string-array name="serviceCategories">
+        <item>@string/publicService</item>
+        <item>@string/municipalityService</item>
+        <item>@string/travelService</item>
+        <item>@string/vipService</item>
+    </string-array>
+
+    <string-array name="chooseGetImageType">
+        <item>گالری</item>
+        <item>دوربین</item>
+        <item>حذف عکس</item>
+    </string-array>
+
+    <string-array name="transactionsType">
+        <item>همه</item>
+        <item>هزینه</item>
+        <item>درآمد</item>
+    </string-array>
+
+</resources>
