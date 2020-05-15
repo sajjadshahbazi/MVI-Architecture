@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.signupuser.di.ListViewModelModulesProvider
 import com.example.signupuser.di.MapViewModelModulesProvider
 import com.example.signupuser.di.ProfileViewModelModulesProvider
+import com.example.signupuser.di.weather.WeatherViewModelModulesProvider
 import com.example.signupuser.utils.ViewModelFactory
 import dagger.Binds
 import dagger.Module
@@ -11,7 +12,8 @@ import dagger.Module
 @Module(includes = [
     ProfileViewModelModulesProvider::class,
     MapViewModelModulesProvider::class,
-    ListViewModelModulesProvider::class
+    ListViewModelModulesProvider::class,
+    WeatherViewModelModulesProvider::class
 ])
 abstract class ViewModelModule {
     @Binds

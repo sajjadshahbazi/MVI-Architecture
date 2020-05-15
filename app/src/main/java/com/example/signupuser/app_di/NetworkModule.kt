@@ -1,6 +1,6 @@
 package com.example.signupuser.app_di
 
-import com.example.signupuser.network.BASE_URL
+import com.example.signupuser.network.BASE_URL_WEATHER
 import com.example.signupuser.utils.SchedulersFacade
 import com.sharifin.servermodel.ApplicationJsonAdapterFactory
 
@@ -32,7 +32,7 @@ object NetworkModule {
     @Provides
     fun provideRestHelper(client: OkHttpClient, moshi: Moshi, scheduler: SchedulersFacade): Retrofit {
         return Retrofit.Builder()
-            .baseUrl(BASE_URL)
+            .baseUrl(BASE_URL_WEATHER)
             .client(client)
             .addConverterFactory(MoshiConverterFactory.create(moshi))
             .addCallAdapterFactory(RxJava2CallAdapterFactory.createWithScheduler(scheduler.io()))

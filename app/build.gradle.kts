@@ -125,5 +125,7 @@ dependencies {
 
     implementation(Dep.Utils.epoxy)
     kapt(Dep.Utils.epoxyCompiler)
+
+    implementation(Dep.Chuck.chuck)
 }
 

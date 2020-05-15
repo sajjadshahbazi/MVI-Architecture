@@ -8,6 +8,7 @@ import DepVersion.archComponentVersion
 import DepVersion.assertJVersion
 import DepVersion.biometricVersion
 import DepVersion.bottomNavVersion
+import DepVersion.chuckVersion
 import DepVersion.constraintLayoutVersion
 import DepVersion.curveVersion
 import DepVersion.daggerVersion
@@ -85,6 +86,8 @@ object DepVersion {
     const val firebaseCrashVersion = "16.2.1"
     const val firebaseCoreVersion = "16.0.4"
     const val crashlyticsVersion = "2.9.5"
+
+    const val chuckVersion = "1.1.0"
 
     const val daggerVersion = "2.18"
     const val javaxVersion = "1.0"
@@ -296,6 +299,9 @@ object Dep {
         const val firebaseCore = "com.google.firebase:firebase-core:$firebaseCoreVersion"
     }
 
+    object Chuck {
+        const val chuck = "com.readystatesoftware.chuck:library:$chuckVersion"
+    }
 
     object Utils {
         const val timber = "com.jakewharton.timber:timber:$timberVersion"

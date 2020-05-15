@@ -29,7 +29,7 @@ object OkHttpModule {
             .readTimeout(120, TimeUnit.SECONDS)// Read timeout
             .writeTimeout(120, TimeUnit.SECONDS)// Write timeout
             .addInterceptor(logging)
-            .addInterceptor(HeaderInterceptor().create())
+//            .addInterceptor(HeaderInterceptor().create()) // TODO Uncomment
         return builder.build()
 
     }
